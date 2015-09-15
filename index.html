@@ -202,6 +202,17 @@
 						</div>
 						
 					</div>
+					<div class="panel panel-default price-range"><!--price-range-->
+						<div class="panel-heading">
+							<h2 class="panel-title">Price Range</h2>
+						</div>
+						<div class="well text-center">
+							 <div class="well text-center">
+								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+								 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+							</div>
+						</div>
+					</div>
 					<div class="panel panel-default brands-products"><!--brands_products-->
 						<div class="panel-heading">
 							<h2 class="panel-title">Brands</h2>
@@ -216,15 +227,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="panel panel-default price-range"><!--price-range-->
-						<div class="panel-heading">
-							<h2 class="panel-title">Price Range</h2>
-						</div>
-						<div class="well text-center">
-							 <div class="slider slider-horizontal" style="width: 174px;"><div class="slider-track"><div class="slider-selection" style=""></div><div class="slider-handle round left-round" style=""></div><div class="slider-handle round" style=""></div></div><div class="tooltip top" style=""><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div><input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2"></div><br>
-							 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
-						</div>
-					</div>
+					
 					<div class="shipping text-center"><!--shipping-->
 						<img src="images/sale.jpg" alt="">
 					</div>
@@ -235,49 +238,49 @@
 							<h2 class="title">Features Items</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div class="row">
-							<div class="col-md-4">
+						<div class="row grid">
+							<div class="col-md-4 grid-item" data-price="100">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt="">
-											<h2>$56</h2>
+											<h2>$100</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 grid-item"  data-price="300">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt="">
-											<h2>$56</h2>
+											<h2>$300</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 grid-item"  data-price="50">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt="">
-											<h2>$56</h2>
+											<h2>$50</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 grid-item"  data-price="450">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt=""/>
-											<h2>$56</h2>
+											<h2>$450</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
@@ -285,12 +288,12 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 grid-item"  data-price="200">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt="">
-											<h2>$56</h2>
+											<h2>$200</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
@@ -298,12 +301,12 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-4 grid-item"  data-price="10">
 								<div class="product-image-wrapper">
 									<div class="single-products">
 										<div class="productinfo text-center">
 											<img src="images/product6.jpg" alt="">
-											<h2>$56</h2>
+											<h2>$10</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
@@ -640,9 +643,35 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/price-range.js"></script>
+	<script src="js/isotope.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script type="text/javascript">
 	new WOW().init();
+
+	
+
+     var data_filter =  $('#sl2').slider({
+
+     })
+        .on('slide',function(){
+        	console.log(data_filter.value)
+        	 var isotop_filter = $('.grid').isotope({
+				  // options
+				  itemSelector: '.grid-item',
+				  layoutMode: 'fitRows',
+
+				  filter: function() {
+				  		// console.log(data_filter.value[0])
+					  	var number = $(this).data('price');
+					  	var number = $(this).attr('data-price');
+					  	return parseInt( number, 10 ) >= data_filter.value[0] && parseInt( number, 10 ) <= data_filter.value[1];
+					} 
+				});
+        })
+        .data('slider');
+
+   
+
 
 	var width = $(window).width(), height = $(window).height();
 	if (width > 767) {
