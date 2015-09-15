@@ -1,7 +1,7 @@
 body {
 	background-color: #f0f0f0;
 }
-a, button {
+a, button, #footer .social a, .productinfo img {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -221,6 +221,11 @@ ul li {
 .single-products {
     position: relative;
 }
+.productinfo img:hover {
+    -webkit-transform: scale(1.1, 1.1); */
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
 .productinfo h2 {
     font-size: 18px;
     font-weight: 700;
@@ -351,9 +356,6 @@ ul li {
     line-height: 26px;
     font-size: 15px;
     text-align: center;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
     vertical-align: bottom;
     background-color: #555555;
 }
@@ -392,23 +394,107 @@ ul li {
 #copyright p {
   margin: 0;
 }
-@media (max-device-width: 480px) and (orientation: landscape) {}
-@media screen and (max-width: 767px){
-	.navbar-default{
-	    position: relative;
-	    width: 100%;
-	}
-	.search-wrapper{
-	    position: relative;
-		margin-top: 0px;
-	    width: 100%;
 
-	}
-	
-	#slider{
-		margin-top: 0px;
-	}
+
+@media (max-width: 479px) {
+    .navbar {
+        min-height: auto;
+    }
+    .navbar-nav {
+    margin: 0 -15px;
+    }
+    .navbar-main li a {
+    height: 50px;
+    padding: 18px 15px;
+    }
+    .navbar-toggle {
+        margin: 12px 5px 8px 0;
+        padding: 7px;
+    }
+    .logo {
+        height: 50px;
+        padding: 8px;
+        width: 170px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .search-wrapper{
+        position: relative;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .search-wrapper .navbar-form {
+    width: auto;
+    }
+    #slider{
+        margin-top:0;
+    }
+    .carousel-control.left, .carousel-caption, .carousel-control.right, #content .panel.brands-products, #content .panel.price-range, .banner-bar {
+        display: none;
+    }
+    .productinfo img{
+        width:100%;
+    }
+    .productinfo h2 {
+        padding: 0 10px;
+    }
+    .recommended-items h2 {
+    margin: 20px 0;
+    }
+    .col-xs-6 {
+        width: 100%;
+    }
+    .nav-tabs>li {
+        float: none;
+    }
+    .nav-tabs li a:hover, .nav-tabs li a:focus {
+        border: 0;
+        margin-right: 0;
+    }
+
 }
+
+@media (min-width: 480px) {
+    .navbar {
+        min-height: auto;
+    }
+    .navbar-nav {
+    margin: 0 -15px;
+    }
+    .navbar-main li a {
+    height: 50px;
+    padding: 18px 15px;
+    }
+    .navbar-toggle {
+        margin-top: 12px;
+    }
+    .search-wrapper{
+        position: relative;
+        margin-top: 0px;
+        width: 100%;
+
+    }
+    .search-wrapper .navbar-form {
+        width: auto;
+    }
+    #slider{
+        margin-top:0;
+    }
+    .carousel-control.left, .carousel-caption, .carousel-control.right, #content .panel.brands-products, #content .panel.price-range, .banner-bar {
+        display: none;
+    }
+    .productinfo img{
+        width:100%;
+    }
+    .productinfo h2 {
+        padding: 0 10px;
+    }
+    .recommended-items h2 {
+    margin: 20px 0;
+    }
+}
+
 @media (min-width: 768px) {
 	#slider{
 		margin-top:70px;
