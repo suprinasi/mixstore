@@ -157,6 +157,13 @@ ul li {
 .category-products .panel-default .panel-heading:hover, .panel-body ul li:hover {
     background-color: #eeeeee;
 }
+.category-products .list-group, .brands-products .list-group {
+    margin-bottom: 0;
+}
+.category-products .list-group-item, .brands-products .list-group-item {
+    border-radius: 0;
+    border: none;
+}
 .brands-name {
     border: 1px solid #F7F7F0;
     padding-bottom: 20px;
