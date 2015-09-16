@@ -424,14 +424,14 @@ ul li {
     }
     .search-wrapper{
         position: relative;
-        margin-top: 0px;
+        margin-top: 50px;
         width: 100%;
     }
     .search-wrapper .navbar-form {
     width: auto;
     }
     #slider{
-        margin-top:0;
+        margin-top: 50px;
     }
     .carousel-control.left, .carousel-caption, .carousel-control.right, #content .panel.brands-products, #content .panel.price-range, .banner-bar {
         display: none;
@@ -474,7 +474,7 @@ ul li {
     }
     .search-wrapper{
         position: relative;
-        margin-top: 0px;
+        margin-top: 70px;
         width: 100%;
 
     }
@@ -482,7 +482,7 @@ ul li {
         width: auto;
     }
     #slider{
-        margin-top:0;
+        margin-top: 70px;
     }
     .carousel-control.left, .carousel-caption, .carousel-control.right, #content .panel.brands-products, #content .panel.price-range, .banner-bar {
         display: none;
