@@ -90,58 +90,24 @@
                 </form>
 		</div><!-- /.navbar-collapse -->
 	</div>
-	<section id="slider">
+
+	<section id="content" style="margin-top: 90px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div id="carousel-id" class="carousel slide main-slider" data-ride="carousel">
-					    <ol class="carousel-indicators">
-					        <li data-target="#carousel-id" data-slide-to="0" class=""></li>
-					        <li data-target="#carousel-id" data-slide-to="1" class=""></li>
-					        <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
-					    </ol>
-					    <div class="carousel-inner">
-					        <div class="item">
-					            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="images/fashion.jpg">
-					            <div class="container">
-					                <div class="carousel-caption">
-					                    <h1>mixStore | 100% Responsive Design</h1>
-					                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					                    <p><a class="btn btn-lg btn-default btn-new" href="#" role="button">Sign up today</a></p>
-					                </div>
-					            </div>
-					        </div>
-					        <div class="item">
-					            <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/gadget.jpg">
-					            <div class="container">
-					                <div class="carousel-caption">
-					                    <h1>mixStore | Free Ecommerce Template</h1>
-					                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					                    <p><a class="btn btn-lg btn-default btn-new" href="#" role="button">Learn more</a></p>
-					                </div>
-					            </div>
-					        </div>
-					        <div class="item active">
-					            <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/accessories.jpg">
-					            <div class="container">
-					                <div class="carousel-caption">
-					                    <h1>One more for good measure.</h1>
-					                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					                    <p><a class="btn btn-lg btn-default btn-new" href="#" role="button">Browse gallery</a></p>
-					                </div>
-					            </div>
-					        </div>
-					    </div>
-					    <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-					    <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-					</div>
+					<ol class="breadcrumb">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Category</a>
+						</li>
+						<li>
+							<a href="#">Shoes</a>
+						</li>
+						<li>Stratome Glit Shoes RC2</li>
+					</ol>
 				</div>
-			<div>
-		</div>
-	</section>
-	<section id="content">
-		<div class="container">
-			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="panel panel-default category-products" id="#"><!--category-products-->
 						<div class="panel-heading">
@@ -228,271 +194,66 @@
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-8 col-md-9 padding-right">
-					<div class="features-items"><!--features_items-->
-						<div class="box">
-							<h1 class="title">Features Items</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="product-details"><!--product-details-->
+						<div class="col-sm-5">
+							<div class="view-product">
+								<img src="images/1.jpg" style="width: 100%" alt="">
+								<h3>ZOOM</h3>
+							</div>
+							<div id="similar-product" class="carousel slide" data-ride="carousel">
+								
+								  <!-- Wrapper for slides -->
+								    <div class="carousel-inner">
+										<div class="item active">
+										  <a href=""><img src="images/similar1.jpg" alt=""></a>
+										  <a href=""><img src="images/similar2.jpg" alt=""></a>
+										  <a href=""><img src="images/similar3.jpg" alt=""></a>
+										</div>
+										<div class="item">
+										  <a href=""><img src="images/similar1.jpg" alt=""></a>
+										  <a href=""><img src="images/similar2.jpg" alt=""></a>
+										  <a href=""><img src="images/similar3.jpg" alt=""></a>
+										</div>
+										<div class="item">
+										  <a href=""><img src="images/similar1.jpg" alt=""></a>
+										  <a href=""><img src="images/similar2.jpg" alt=""></a>
+										  <a href=""><img src="images/similar3.jpg" alt=""></a>
+										</div>
+										
+									</div>
+
+								  <!-- Controls -->
+								  <a class="left item-control" href="#similar-product" data-slide="prev">
+									<i class="fa fa-angle-left"></i>
+								  </a>
+								  <a class="right item-control" href="#similar-product" data-slide="next">
+									<i class="fa fa-angle-right"></i>
+								  </a>
+							</div>
+
 						</div>
-						<div class="row grid">
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item" data-price="100">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product1.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price"><del>$400</del> $100.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item"  data-price="300">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product2.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price"><del>$400</del> $300.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item"  data-price="50">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product3.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price">$50.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item"  data-price="450">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product4.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price">$450.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-										<img src="images/new.png" class="new" alt=""/>
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item"  data-price="200">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product5.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price">$200.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-										<img src="images/sale.png" class="new" alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-xs-6 col-sm-6 col-md-4 grid-item"  data-price="10">
-								<div class="product-image-wrapper">
-									<div class="single-products">
-										<div class="productinfo text-center">
-											<a href="product-details.html"><img src="images/product6.jpg" alt=""></a>
-											<h2><a href="product-details.html">Awesome Polo Limited</a></h2>
-											<p class="price">$10.00</p>
-											<p>Easy Polo Black Edition</p>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="col-sm-7">
+							<div class="product-information"><!--/product-information-->
+								<img src="images/product-details/new.jpg" class="newarrival" alt="">
+								<h2>Stratome Glit Shoes RC2</h2>
+								<p>Web ID: 1089772</p>
+								<img src="images/product-details/rating.png" alt="">
+								<span>
+									<span>US $59</span>
+									<label>Quantity:</label>
+									<input type="text" value="3">
+									<button type="button" class="btn btn-fefault cart">
+										<i class="fa fa-shopping-cart"></i>
+										Add to cart
+									</button>
+								</span>
+								<p><b>Availability:</b> In Stock</p>
+								<p><b>Condition:</b> New</p>
+								<p><b>Brand:</b> E-SHOPPER</p>
+								<a href=""><img src="images/product-details/share.png" class="share img-responsive" alt=""></a>
+							</div><!--/product-information-->
 						</div>
-					</div><!--features_items-->
-					<div class="category-tab row wow fadeInUp"><!--category-tab-->
-						<div class="col-xs-12 col-sm-12 col-md-12">
-							<ul class="nav nav-tabs">
-								<li class="active"><a href="#tshirt" data-toggle="tab">T-Shirt</a></li>
-								<li class=""><a href="#blazers" data-toggle="tab">Blazers</a></li>
-								<li><a href="#kids" data-toggle="tab">Kids</a></li>
-							</ul>
-						</div>
-						<div class="tab-content">
-							<div class="tab-pane fade active in" id="tshirt">
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery1.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery2.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery3.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery4.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-pane fade" id="blazers">
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery1.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery2.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery3.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery4.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>							
-							<div class="tab-pane fade" id="kids">
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery1.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery2.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery3.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-xs-6 col-sm-6 col-md-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<a href="#"><img src="images/gallery4.jpg" alt=""></a>
-												<h2><a href="#">Awesome Polo Limited</a></h2>
-												<p class="price">$10.00</p>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!--/category-tab-->
+					</div>
 					<div class="recommended-items row"><!--recommended_items-->
 						<h2 class="title text-center">Recommended Items</h2>
 						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
@@ -587,7 +348,7 @@
 								<i class="fa fa-angle-right"></i>
 							  </a>			
 						</div>
-					</div><!--/recommended_items-->	
+					</div><!--/recommended_items-->
 				</div>
 			</div>
 		</div>
@@ -659,7 +420,7 @@
             </div>
         </div>
 
-	<script src="js/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/price-range.js"></script>
 	<script src="js/isotope.js"></script>

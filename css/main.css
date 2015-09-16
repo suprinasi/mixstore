@@ -9,6 +9,15 @@ a, button, #footer .social a, .productinfo img {
 a i.fa, button i.fa {
     margin: 0 5px;
 }
+a {
+  color: #4fbfa8;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #348e7b;
+  text-decoration: underline;
+}
 .navbar-default {
     background-color: #ffffff;
     border-bottom-color: #e6e6e6;
@@ -62,6 +71,10 @@ a i.fa, button i.fa {
 }
 .search-wrapper{
 	margin-top: 70px;
+}
+.navbar-form {
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 .search-wrapper .navbar-form{
 	width: 500px;
@@ -193,7 +206,6 @@ ul li {
 }
 .banner-bar {
     background-color: #F2F2F2;
-    margin-top: 40px;
     overflow: hidden;
     padding-top: 20px;
     position: relative;
@@ -326,6 +338,56 @@ ul li {
 .right {
     right: 0;
 }
+#content .pages {
+    text-align: center;
+}
+#content .pages .pagination {
+    text-align: center;
+}
+/* pagination */
+.pagination {
+  margin: 20px 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  border-radius: 0;
+}
+.pagination > li > a,
+.pagination > li > span {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  color: #696763;
+  background-color: #F5F5ED;
+  border: 1px solid #dddddd;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #FFFFFF;
+  background-color: #4fbfa8;
+  border-color: #dddddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #ffffff;
+  background-color: #4fbfa8;
+  border-color: #4fbfa8;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #999999;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
 #footer {
     background: #e0e0e0;
     padding: 20px 0;
@@ -396,6 +458,24 @@ ul li {
 }
 #copyright p {
   margin: 0;
+}
+/* breadcrumbs */
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 0;
+}
+.breadcrumb {
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.breadcrumb > li + li:before {
+  content: ">\00a0";
+  color: #cccccc;
+}
+.breadcrumb > .active {
+  color: #999999;
 }
 
 
@@ -514,7 +594,6 @@ ul li {
     padding: 7px;
     height: 50px;
     width: 175px;
-    margin-right: 20px;
     }
     .logo img {
         width: 100%;
