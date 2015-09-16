@@ -198,6 +198,9 @@ ul li {
     padding-top: 20px;
     position: relative;
 }
+.banner-bar img {
+    width: 100%;
+}
 .features-items {
     overflow: hidden;
 }
@@ -442,15 +445,15 @@ ul li {
     .recommended-items h2 {
     margin: 20px 0;
     }
-    .col-xs-6 {
-        width: 100%;
-    }
     .nav-tabs>li {
         float: none;
     }
     .nav-tabs li a:hover, .nav-tabs li a:focus {
         border: 0;
         margin-right: 0;
+    }
+    .col-xs-6 {
+        width: 100% !important;
     }
 
 }
@@ -503,6 +506,10 @@ ul li {
     height: 50px;
     padding: 18px 15px;
     }
+    .dropdown-menu li a, .dropdown-menu li a:hover {
+        height: 50px;
+        padding: 15px;
+    }
     .logo {
     padding: 7px;
     height: 50px;
@@ -511,6 +518,9 @@ ul li {
     }
     .logo img {
         width: 100%;
+    }
+    .btn {
+        padding: 6px;
     }
     .navbar-btn {
     margin-top: 8px;
@@ -548,12 +558,43 @@ ul li {
     }
 }
 @media (min-width: 992px) {
-	#slider{
-		margin-top:50px;
-	}
+	.navbar{
+    min-height: 70px;
+    margin-bottom: 0px;
+    }
+    .logo {
+    padding: 10px 15px;
+    height: 70px;
+    width: auto;
+    }
+    .navbar-main li a {
+    height: 70px;
+    padding: 25px 15px;
+    }
+    .dropdown-menu li a, .dropdown-menu li a:hover {
+        height: 50px;
+        padding: 15px;
+    }
+    .search-wrapper {
+    margin-top: 70px;
+    }
+    #slider {
+    margin-top: 70px;
+    }
+    .navbar-btn {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    }
+    .productinfo h2 {
+    padding: 0 10px;
+    }
+    .banner-bar img {
+        width: 100%;
+    }
 }
 @media (min-width: 1200px) {
-	#slider{
-		margin-top:70px;
-	}
+    .dropdown-menu li a, .dropdown-menu li a:hover {
+        height: 50px;
+        padding: 15px;
+    }
 }
