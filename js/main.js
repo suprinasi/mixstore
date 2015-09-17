@@ -31,7 +31,37 @@
 		$('.navbar').removeClass('navbar-fixed-top')
 	}
 		$('.logo').hover(function(){
-			$(this).addClass('animated').addClass('bounce')
+			$(this).addClass('animated').addClass('pulse')
 		},function(){
-			$(this).removeClass('animated').removeClass('bounce')
+			$(this).removeClass('animated').removeClass('pulse')
+		})
+
+		$('.facebook').hover(function(){
+			$(this).addClass('animated').addClass('pulse')
+		},function(){
+			$(this).removeClass('animated').removeClass('pulse')
+		})
+
+		$('.twitter').hover(function(){
+			$(this).addClass('animated').addClass('pulse')
+		},function(){
+			$(this).removeClass('animated').removeClass('pulse')
+		})
+
+		$('.gplus').hover(function(){
+			$(this).addClass('animated').addClass('pulse')
+		},function(){
+			$(this).removeClass('animated').removeClass('pulse')
+		})
+
+		$('.instagram').hover(function(){
+			$(this).addClass('animated').addClass('pulse')
+		},function(){
+			$(this).removeClass('animated').removeClass('pulse')
+		})
+
+		$('.email').hover(function(){
+			$(this).addClass('animated').addClass('pulse')
+		},function(){
+			$(this).removeClass('animated').removeClass('pulse')
 		})

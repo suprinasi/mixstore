@@ -1,5 +1,9 @@
 body {
-	background-color: #f0f0f0;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #f0f0f0;
 }
 a, button, #footer .social a, .productinfo img {
     -webkit-transition: all 0.2s ease-out;
@@ -18,6 +22,13 @@ a:focus {
   color: #348e7b;
   text-decoration: underline;
 }
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    border-left: 5px solid #4fbfa8;
+}
+
 .navbar-default {
     background-color: #ffffff;
     border-bottom-color: #e6e6e6;
@@ -286,7 +297,7 @@ ul li {
 .category-tab {
     overflow: hidden;
 }
-.category-tab ul {
+.category-tab ul.nav-tabs {
     background: #40403E;
     border-bottom: 1px solid #4fbfa8;
     list-style: none outside none;
@@ -411,7 +422,7 @@ ul li {
 #footer .social {
     text-align: left;
 }
-#footer .social a {
+#footer .social a, #content .product-information .social p a {
     margin: 0 10px 0 0;
     color: #fff;
     display: inline-block;
@@ -424,7 +435,7 @@ ul li {
     vertical-align: bottom;
     background-color: #555555;
 }
-#footer .social a i {
+#footer .social a i, #content .product-information .social p a i {
     vertical-align: bottom;
     line-height: 30px;
 }
@@ -484,8 +495,8 @@ ul li {
 .product-information {
     position: relative;
     overflow: hidden;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 .newarrival {
     position: absolute;
@@ -529,8 +540,24 @@ ul li {
     text-align: center;
     width: 50px;
 }
-.share {
+#content .product-information .social {
   margin-top: 15px;
+}
+#content .product-information .social p {
+    line-height: 26px;
+    font-weight: 300;
+}
+#content .product-information .social p a.facebook {
+  background-color: #4460ae;
+}
+#content .product-information .social p a.gplus {
+  background-color: #c21f25;
+}
+#content .product-information .social p a.twitter {
+  background-color: #3cf;
+}
+#content .product-information .social p a.email {
+  background-color: #4a7f45;
 }
 .cart {
     background: #4fbfa8;
@@ -550,6 +577,84 @@ ul li {
 }
 #content #thumbs a.active {
   border-color: #4fbfa8;
+}
+
+#reviews, #details {
+    padding-left: 15px;
+    padding-right:15px;
+}
+.shop-details-tab .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#details ul li {
+    list-style-type: disc;
+}
+
+#reviews ul {
+    background: #FFFFFF;
+    border: 0 none;
+    list-style: none outside none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+#reviews ul li {
+    display: inline-block;
+}
+ul li {
+    list-style: none;
+}
+#reviews ul li a {
+    color: #696763;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+}
+#reviews ul li a:hover{
+    background:#fff;
+    color:#4fbfa8;
+}
+#reviews ul li a i {
+    color: #4fbfa8;
+    padding-right: 8px;
+}
+#reviews form span {
+    display: block;
+}
+#reviews form span input {
+    background: #F0F0E9;
+    border: 0 none;
+    color: #A6A6A1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    outline: medium none;
+    padding: 8px;
+    width: 48%;
+}
+#reviews form span input:last-child {
+    margin-left: 3%;
+}
+#reviews textarea {
+    background: #F0F0E9;
+    border: medium none;
+    color: #A6A6A1;
+    height: 195px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    outline: medium none;
+    padding-left: 10px;
+    padding-top: 15px;
+    resize: none;
+    width: 99.5%;
+}
+#reviews button {
+    background: #4fbfa8;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 
@@ -609,6 +714,11 @@ ul li {
     }
     .col-xs-6 {
         width: 100% !important;
+    }
+
+    #reviews form span input, #reviews form span input:last-child {
+        width: 100%;
+        margin: 10px 0;
     }
 
 }
