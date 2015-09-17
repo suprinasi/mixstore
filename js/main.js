@@ -65,3 +65,18 @@
 		},function(){
 			$(this).removeClass('animated').removeClass('pulse')
 		})
+
+		$('#zoom_01').elevateZoom({
+		gallery:"gallery_01",
+		galleryActiveClass: "active",
+    	zoomType: "inner",
+		cursor: "crosshair",
+		zoomWindowFadeIn: 500,
+		zoomWindowFadeOut: 750
+  		});
+
+  		$("#zoom_01").bind("click", function(e) {
+  		var ez = $('#zoom_01').data('elevateZoom');
+  		$.fancybox(ez.getGalleryList());
+  		return false;
+  		});

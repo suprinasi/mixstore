@@ -165,15 +165,6 @@
 						</div>
 						
 					</div>
-					<div class="panel panel-default price-range"><!--price-range-->
-						<div class="panel-heading">
-							<h2 class="panel-title">Price Range</h2>
-						</div>
-						 <div class="well text-center">
-							 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
-							 <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
-						</div>
-					</div>
 					<div class="panel panel-default brands-products"><!--brands_products-->
 						<div class="panel-heading">
 							<h2 class="panel-title">Brands</h2>
@@ -197,13 +188,13 @@
 					<div class="product-details row"><!--product-details-->
 						<div class="col-sm-6">
 							<div class="view-product">
-								<img src="images/1.jpg" style="width: 100%" alt="">
+								<img id="zoom_01" src="images/1.jpg" style="width: 100%" alt="" data-zoom-image="images/1.jpg">
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="product-information box"><!--/product-information-->
 								<img src="images/new.jpg" class="newarrival" alt="">
-								<h2>Stratome Glit Shoes RC2</h2>
+								<h1>Stratome Glit Shoes RC2</h1>
 								<p>Web ID: RC2-2222</p>
 								<img src="images/rating.png" alt="">
 								<span>
@@ -229,20 +220,20 @@
 									</p>
 								</div>
 							</div><!--/product-information-->
-							<div class="row" id="thumbs">
+							<div class="row" id="gallery_01">
                                 <div class="col-xs-4">
-                                    <a href="images/1.jpg" class="thumb">
-                                        <img src="images/1detail.jpg" alt="" class="img-responsive">
+                                    <a class="thumb" href="#" data-image="images/1.jpg" data-zoom-image="images/1.jpg">
+                                        <img alt="" class="img-responsive" id="zoom_01" src="images/1.jpg">
                                     </a>
                                 </div>
                                 <div class="col-xs-4">
-                                    <a href="images/1.jpg" class="thumb">
-                                        <img src="images/1detail.jpg" alt="" class="img-responsive">
+                                    <a class="thumb" href="#" data-image="images/1.jpg" data-zoom-image="images/1.jpg">
+                                        <img alt="" class="img-responsive" id="zoom_01" src="images/1.jpg">
                                     </a>
                                 </div>
                                 <div class="col-xs-4">
-                                    <a href="images/1.jpg" class="thumb active">
-                                        <img src="images/1detail.jpg" alt="" class="img-responsive">
+                                    <a class="thumb" href="#" data-image="images/2.jpg" data-zoom-image="images/2.jpg">
+                                        <img alt="" class="img-responsive" id="zoom_01" src="images/2.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -472,6 +463,7 @@
 	<script src="js/price-range.js"></script>
 	<script src="js/isotope.js"></script>
 	<script src="js/wow.min.js"></script>
+	<script src='js/jquery.elevatezoom.js'></script>
 	<script src="js/main.js"></script>
 
 </body>

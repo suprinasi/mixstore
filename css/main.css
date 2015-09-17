@@ -29,6 +29,7 @@ blockquote {
     border-left: 5px solid #4fbfa8;
 }
 
+
 .navbar-default {
     background-color: #ffffff;
     border-bottom-color: #e6e6e6;
@@ -503,10 +504,10 @@ ul li {
     top: 0;
     left: 0;
 }
-.product-information h2 {
+.product-information h1, .features-items h1 {
     color: #363432;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0;
 }
 .product-information span {
@@ -569,13 +570,13 @@ ul li {
     margin-bottom: 10px;
     margin-left: 10px;
 }
-#content #thumbs a {
+#content a.thumb {
   display: block;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   border: solid 2px transparent;
 }
-#content #thumbs a.active {
+#content a.active {
   border-color: #4fbfa8;
 }
 
