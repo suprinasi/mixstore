@@ -432,7 +432,7 @@ ul li {
 #footer .social {
     text-align: left;
 }
-#footer .social a, #content .product-information .social p a {
+#footer .social a, #content .product-information .social p a, .blog-post-area .single-blog-post .social p a {
     margin: 0 10px 0 0;
     color: #fff;
     display: inline-block;
@@ -445,7 +445,7 @@ ul li {
     vertical-align: bottom;
     background-color: #555555;
 }
-#footer .social a i, #content .product-information .social p a i {
+#footer .social a i, #content .product-information .social p a i, .blog-post-area .single-blog-post .social p a i {
     vertical-align: bottom;
     line-height: 30px;
 }
@@ -550,23 +550,23 @@ ul li {
     text-align: center;
     width: 50px;
 }
-#content .product-information .social {
+#content .product-information .social, .blog-post-area .single-blog-post .social {
   margin-top: 15px;
 }
-#content .product-information .social p {
+#content .product-information .social p .blog-post-area .single-blog-post .social p {
     line-height: 26px;
     font-weight: 300;
 }
-#content .product-information .social p a.facebook {
+#content .product-information .social p a.facebook,.blog-post-area .single-blog-post .social p a.facebook {
   background-color: #4460ae;
 }
-#content .product-information .social p a.gplus {
+#content .product-information .social p a.gplus, .blog-post-area .single-blog-post .social p a.gplus {
   background-color: #c21f25;
 }
-#content .product-information .social p a.twitter {
+#content .product-information .social p a.twitter, .blog-post-area .single-blog-post .social p a.twitter {
   background-color: #3cf;
 }
-#content .product-information .social p a.email {
+#content .product-information .social p a.email, .blog-post-area .single-blog-post .social p a.email {
   background-color: #4a7f45;
 }
 .cart {
@@ -668,7 +668,8 @@ ul li {
 }
 
 .blog-post-area 
- .single-blog-post h3 {
+ .single-blog-post h3, .blog-post-area 
+ .single-blog-post h1 {
     color: #696763;
     font-size: 16px;
     font-family: 'Roboto',sans-serif;
@@ -718,6 +719,19 @@ ul li {
     border-radius: 0;
     color: #FFFFFF;
     margin-top: 17px;
+}
+#content #comments h4, #content #comment-form, #content #comment-form h4 {
+    margin-bottom: 20px;
+}
+#content #comments .comment {
+    margin-bottom: 25px;
+}
+#content #comments .comment .posted {
+    color: #999999;
+    font-size: 12px;
+}
+#content #comments .comment.last {
+    margin-bottom: 0;
 }
 
 
