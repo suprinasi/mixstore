@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+    <meta name="description" content="">
+	<meta name="author" content="Rendi Supriatna">
+	<meta content="" name="DC.Title"/>
+	<meta content="" name="language"/>
+	<meta content="900" http-equiv="refresh"/>
+	<meta content="all, index, follow, noodp, noydir" name="robots"/>
+    <title>Home | mixStore</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link href="css/price-range.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet"> 
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+</head> <!--/head-->
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+		
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-align-justify"></i>
+            </button>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".search-wrapper">
+                <span class="sr-only">Toggle search</span>
+                <i class="fa fa-search"></i>
+            </button>
+            <a class="btncolor navbar-toggle" href="#">
+                <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
+            </a>
+			<a class="navbar-brand logo" href="index.html"><img src="images/mixstorelogo.png"/></a>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav navbar-main">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Fashion <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="category.html">Shirts</a></li>
+						<li><a href="category.html">Pants</a></li>
+						<li><a href="category.html">Shoes</a></li>
+						<li><a href="category.html">Jacket</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gadget <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="category.html">Smartphone</a></li>
+						<li><a href="category.html">Tablet</a></li>
+						<li><a href="category.html">Pocket</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accessories <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="category.html">Neckless</a></li>
+						<li><a href="category.html">Bangle</a></li>
+						<li><a href="category.html">Ring</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-buttons">
+			<div class="navbar-collapse collapse pull-right">
+				<a  class="btn btn-default btn-new navbar-btn" href="#"><i class="fa fa-shopping-cart"></i></a>
+
+			</div>
+			<div class="navbar-collapse collapse pull-right">
+				<button  class="btn btn-default btn-new navbar-btn " data-toggle="collapse" data-target=".search-wrapper"><i class="fa fa-search"></i></button>
+			</div>
+		</div>
+	</nav>
+	<div class="container collapse search-wrapper">
+		<div class=" pull-right">
+			<form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+			<button type="submit" class="btn btn-default btn-new"><i class="fa fa-search"></i></button>
+
+		    </span>
+                    </div>
+                </form>
+		</div><!-- /.navbar-collapse -->
+	</div>
+
+	<section id="content" style="margin-top: 90px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<ol class="breadcrumb">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li class="active">Shopping Cart
+						</li>
+					</ol>
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-9" id="basket">
+					<div class="box">
+						<form method="post" action="checkout1.html">
+							<h1>Shopping cart</h1>
+							<p class="text-muted">You currently have 3 item(s) in your cart.</p>
+							<div class="table-responsive">
+								<table class="table">
+									<thead>
+										<tr>
+											<th colspan="2">Product</th>
+											<th>Quantity</th>
+											<th>Unit price</th>
+											<th>Discount</th>
+											<th colspan="2">Total</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<a href="#"><img src="images/1.jpg" alt="White Blouse Armani"></a>
+											</td>
+											<td><a href="#">White Blouse Armani</a></td>
+											<td><input type="number" value="2" class="form-control"></td>
+											<td>$123.00</td>
+											<td>$0.00</td>
+											<td>$246.00</td>
+											<td><a href="#"><i class="fa fa-trash-o"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="#"><img src="images/2.jpg" alt="Black Blouse Armani"></a>
+											</td>
+											<td><a href="#">Black Blouse Armani</a></td>
+											<td><input type="number" value="1" class="form-control"></td>
+											<td>$200.00</td>
+											<td>$0.00</td>
+											<td>$200.00</td>
+											<td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<th colspan="5">Total</th>
+											<th colspan="2">$446.00</th>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+							<div class="box-footer">
+								<div class="pull-left">
+									<a href="category.html" class="btn btn-default"><i class="fa fa-chevron-left"></i> Continue shopping</a>
+								</div>
+								<div class="pull-right">
+									<button class="btn btn-default"><i class="fa fa-refresh"></i> Update basket</button>
+									<button type="submit" class="btn btn-new">Proceed to checkout <i class="fa fa-chevron-right"></i></button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="recommended-items row"><!--recommended_items-->
+						<h2 class="title text-center">Recommended Items</h2>
+						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">	
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend1.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend2.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend3.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">	
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend1.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend2.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-4 col-xs-12">
+										<div class="product-image-wrapper">
+											<div class="single-products">
+												<div class="productinfo text-center">
+													<div class="image">
+														<a href="#"><img src="images/recommend3.jpg" alt=""></a>
+													</div>
+													<h2><a href="#">Awesome Polo Limited</a></h2>
+													<p class="price">$10.00</p>
+													<p>Easy Polo Black Edition</p>
+													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+								<i class="fa fa-angle-left"></i>
+							  </a>
+							  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+								<i class="fa fa-angle-right"></i>
+							  </a>			
+						</div>
+					</div><!--/recommended_items-->	
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-3">
+					<div class="box" id="order-summary">
+						<div class="box-header">
+							<h3>Order summary</h3>
+						</div>
+						<p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
+						<div class="table-responsive">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td>Order subtotal</td>
+										<th>$446.00</th>
+									</tr>
+									<tr>
+										<td>Shipping and handling</td>
+										<th>$10.00</th>
+									</tr>
+									<tr>
+										<td>Tax</td>
+										<th>$0.00</th>
+									</tr>
+									<tr class="total">
+										<td>Total</td>
+										<th>$456.00</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="box">
+						<div class="box-header">
+							<h4>Coupon code</h4>
+						</div>
+						<p class="text-muted">If you have a coupon code, please enter it in the box below.</p>
+						<form>
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<span class="input-group-btn">
+									<button class="btn btn-new" type="button"><i class="fa fa-gift"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<div class="banner-bar panel text-center"><!--shipping-->
+						<a href="#"><img src="images/sale.jpg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer"  class="wow fadeInUp" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<h4>Service</h4>
+					<ul>
+						<li><a href="#">Online Help</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Order Status</a></li>
+						<li><a href="#">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<h4>Policies</h4>
+					<ul>
+						<li><a href="#">Term of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Refund Policy</a></li>
+						<li><a href="#">Billing System</a></li>
+						<li><a href="#">Ticket System</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-6">
+				<h4>About mixStore</h4>
+					<ul>
+						<li><a href="#">Company Information</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Store Location</a></li>
+						<li><a href="#">Affiliate Program</a></li>
+						<li><a href="#">Copyright</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<h4>Get News</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
+					<form>
+						 <div class="input-group">
+							<input type="text" class="form-control">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">Subscribe!</button>
+							</span>
+						</div> <!-- /input-group -->
+					</form>
+					<hr>
+					<h4>Stay in Touch</h4>
+					<p class="social">
+                        <a href="#" class="facebook external"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter external"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="instagram external"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="gplus external"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="email external"><i class="fa fa-envelope"></i></a>
+                    </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="copyright">
+            <div class="container">
+                <div class="col-md-6">
+                    <p class="pull-left">© 2015 mixStore</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="pull-right">Template by resTemplate. Powered By <a href="eazy.me">Eazy.me</a>
+                </div>
+            </div>
+        </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/price-range.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src='js/jquery.elevatezoom.js'></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

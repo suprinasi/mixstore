@@ -27,7 +27,7 @@
 		},function(){
 			$(this).removeClass('open')
 		})
-	}else if (width > 767) {
+	}else if(width < 767) {
 		$('.navbar').removeClass('navbar-fixed-top')
 	}
 		$('.logo').hover(function(){
