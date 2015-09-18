@@ -818,7 +818,29 @@ ul li {
     color: #555555;
     font-weight: 700;
 }
-
+#content #checkout .nav {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #4fbfa8;
+}
+#content #checkout .nav li {
+    height: 100%;
+}
+#content #checkout .nav li a {
+    display: block;
+    height: 100%;
+}
+.nav-pills > li > a {
+  border-radius: 0;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #4fbfa8;
+}
+label {
+    font-weight: normal;
+}
 
 
 
